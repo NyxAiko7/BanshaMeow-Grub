@@ -1,9 +1,9 @@
 ![](./IMG_6668.JPG)
 
-# Instaling
+# Install
 
 ~~~
-git clone
+git clone https://github.com/NyxAiko7/BanshaMeow-Grub.git
 
-sudo cp -r 
+sudo cp -r BanshaMeow-Grub /boot/grub/themes/
 ~~~
