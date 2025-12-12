@@ -37,7 +37,7 @@ terminal-border: "0"
 
 
 	
-    # Отключаем иконки
+    
     icon_height = 30
     icon_width = 30
     item_icon_space = 4
@@ -53,10 +53,49 @@ terminal-border: "0"
     left = 36%
     top = 90%
     width = 30%
-    align = "left"
+    align = "center"
     text = "@KEYMAP_HINT@"
     id = "__timeout__"
     text = "In %ds, the path is chosen"
     color = "#FF1493"
     font = "Terminus Regular 14"
+}
+
++ progress_bar {
+	id = "__timeout__"
+	left = 25%
+	top = 80%
+	height = 3%
+	width = 50%
+	bar_style = "*.jpg"
+	highlight_style = "progress_hl_*.jpg"
+
+
+}
+### --- VOLUME
++ progress_bar {
+  id = "__timeout__"
+  left = 21%
+  top = 74%
+  height = 2%  
+  width = 0%
+  font = "Terminus Regular 14" 
+  text_color = "#04DD03"  
+  text = ""
+  bar_style = "*"
+  highlight_style = "*"
+}
+
+### --- SECONDS
++ progress_bar {
+  id = "__timeout__"
+  left = 69%
+  top = 74%
+  height = 2%  
+  width = 0%
+  font = "Terminus Regular 14" 
+  text_color = "#04DD03"  
+  text = "%d"
+  bar_style = "*"
+  highlight_style = "*"
 }

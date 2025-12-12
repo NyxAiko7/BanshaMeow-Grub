@@ -1,4 +1,4 @@
-![](./IMG_6669.JPG)
+![](./image.png)
 
 # Install
 
